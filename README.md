@@ -77,7 +77,11 @@ Si la API devuelve un error HTTP, la conexión falla, la respuesta no es válida
 ##  Como descargar todas las rules de Ruff
 
 Instalar Ruff: pip install ruff
-ejecutar 'ruff rule --all --output-format json > ruff_rules.json'
+ejecutar 
+
+```shell
+ruff rule --all --output-format json > ruff_rules.json
+```
 Este comando descarga todas las rules de ruf fy las pasa a un JSON
 por ultimo ejecutar el script de Json-a-excel.py
 Para general los excel
